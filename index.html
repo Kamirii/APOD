@@ -8,7 +8,19 @@
     <link rel="stylesheet" href="APOD.css"></link>
     <title>APOD requisição</title>
 </head>
-<body>
-    <h1>APOD requisição </h1>
+<body background="images/background-photo.jpg">
+    <h1 class="astronomy">Astronomy picture of the day</h1>
+
+    <form> <!-- form action = "/url" method ="get"-->
+      <label for="APOD" class="astronomy"> Insira uma data diferente:</label>
+      <input id="APOD" type="date"></input>
+      <input id="submit" type="submit" value="pesquisar">
+    </form>
+    <div class="picture"> 
+     blablablablablabla
+    </div>
+
+    <!-- integrity atributte-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
 </html>

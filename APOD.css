@@ -1,3 +1,27 @@
-body{
-    background-color:blue;
+body {
+  display: flex;
+  background-color: #3B4149;
+  flex-direction: column;
+  font-family: verdana;
+}
+
+.astronomy {
+  color: white; 
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.picture{
+    margin: 10px; 
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+    color:white;
+
 }
