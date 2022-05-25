@@ -17,11 +17,17 @@ form {
   justify-content: flex-start;
 }
 
-.picture{
+.texto{
     margin: 10px; 
     display:flex;
     flex-direction: column;
     align-items: center; 
     color:white;
-
+}
+.dia{
+  margin: 10px; 
+  display:flex;
+  flex-direction: column;
+  align-items: center; 
+  color:white;
 }
