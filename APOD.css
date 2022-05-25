@@ -24,6 +24,12 @@ form {
     align-items: center; 
     color:white;
 }
+.imagem{
+  display:flex;
+  flex-direction: column;
+  align-items: center; 
+  
+}
 .dia{
   margin: 10px; 
   display:flex;
