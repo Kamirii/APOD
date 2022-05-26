@@ -3,7 +3,9 @@ document.querySelector("#submit").addEventListener("click", () => {});
 
   $("#submit").on ('click', function(e) { 
   const data  = $(`#data-apod`).val() 
+  
   $.ajax({
+    
     // "?" define o começo de um query parameter
     url: `https://api.nasa.gov/planetary/apod?api_key=fCzg8UWG84gFSAfB15ozm0RlosaE8BMuwbLm8bMQ&date=${data}`,
     type: 'GET',
