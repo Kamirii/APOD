@@ -10,17 +10,23 @@
 </head>
 <body background="images/background-photo.jpg">
     <h1 class="astronomy">Astronomy picture of the day</h1>
-
+    
     <form action ="" method="GET"> 
       <label for="APOD" class="astronomy"> Insira uma data diferente:</label>
-      <input id="data-apod" type="date"></input>
-      <input id="submit" type="button" value="pesquisar">
+
+      <div class= "posicao-botao"> 
+        <input id="data-apod" type="date"></input>
+        <input id="submit" type="button" value="pesquisar">
+      </div>
     </form>
 
-    <div class="dia"></div>
-    <div class ="imagem"> </div>
-    <div class="texto"></div>
-   
+
+    <h2 class="dia"></h2>
+    <div class="posicao-elementos">
+     
+      <div class ="imagem"> </div>
+      <div class="texto"></div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
 </html>
