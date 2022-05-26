@@ -42,9 +42,11 @@ form {
 }
 #data-apod{
 margin: 10px;
+background-color:white;
 }
 #submit{
 margin: 10px;
+background-color: white;
 }
 .posicao-botao{
   display:flex;
